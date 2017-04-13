@@ -9,6 +9,9 @@
       <sourceFolder url="file://$MODULE_DIR$/img" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/jade" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/scss" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/scss/helpers" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/scss/layout" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/scss/pages" isTestSource="true" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
