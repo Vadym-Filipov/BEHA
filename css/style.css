@@ -241,12 +241,50 @@ address {
   clear: both;
 }
 
+footer {
+  background-color: #3b2923;
+}
+
+footer p {
+  color: #957c73;
+}
+
+footer p:first-child {
+  margin-top: 0px;
+  color: #ff671b;
+  padding-top: 40px;
+}
+
+footer img {
+  background-color: #ff671b;
+  margin-right: 10px;
+}
+
+footer button {
+  color: #fff;
+  background-color: #ff671b;
+  border: none;
+  width: 134px;
+}
+
+.social {
+  display: flex;
+  border-bottom: dashed #957c73 2px;
+  padding-bottom: 40px;
+}
+
 html, body {
   width: 100%;
+  background-color: #64493f;
 }
 
 .wrapper {
   display: block;
-  width: 970px;
+  width: 960px;
   margin: 0 auto;
+}
+
+.main_section {
+  border-top: dashed #957c73 2px;
+  border-bottom: dashed #957c73 2px;
 }

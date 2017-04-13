@@ -1,0 +1,27 @@
+footer{
+  background-color: $brown;
+  p {
+    color: $brown-text;
+  }
+  p:first-child{
+    margin-top: 0px;
+    color: $orange;
+    padding-top: 40px;
+  }
+  img{
+    background-color: $orange;
+    margin-right: 10px;
+  }
+  button{
+    color: $white;
+    background-color: $orange;
+    border: none;
+    width: 134px;
+  }
+
+}
+.social{
+  display: flex;
+  border-bottom: dashed $brown-text 2px;
+  padding-bottom: 40px;
+}

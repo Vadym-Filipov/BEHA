@@ -1,8 +1,14 @@
 html, body{
 	width: 100%;
+	background-color: $brown-light;
 }
 .wrapper{
 	display: block;
-	width: 970px;
+	width: 960px;
 	margin: 0 auto;
+
+}
+.main_section{
+	border-top: dashed $brown-text 2px;
+	border-bottom: dashed $brown-text 2px;
 }
