@@ -9,6 +9,23 @@ html, body{
 
 }
 .main_section{
+	position: relative;
 	border-top: dashed $brown-text 2px;
 	border-bottom: dashed $brown-text 2px;
+}
+
+.is_active{
+	color: $white;
+}
+
+.menu{
+
+
+	font-size: 16pt;
+	color: $orange;
+	float: right;
+	li{
+		margin-left: 15px;
+		display: inline;
+	}
 }

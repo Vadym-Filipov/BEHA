@@ -241,18 +241,53 @@ address {
   clear: both;
 }
 
+header {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  width: 100%;
+}
+
+header p {
+  margin: 0;
+}
+
+header div {
+  display: inline-block;
+}
+
+.logo {
+  float: left;
+}
+
+.top_logo_menu {
+  width: 100%;
+}
+
+.logo_aero {
+  font-size: 26pt;
+  font-weight: bold;
+  color: #fff;
+}
+
+.logo_aero span {
+  color: #ff671b;
+}
+
+.logo_text {
+  font-size: 11pt;
+  color: #957c73;
+}
+
 footer {
   background-color: #3b2923;
+  font-family: 'robotoslab regular';
+  font-size: 14pt;
 }
 
 footer p {
   color: #957c73;
-}
-
-footer p:first-child {
-  margin-top: 0px;
-  color: #ff671b;
-  padding-top: 40px;
 }
 
 footer img {
@@ -273,6 +308,35 @@ footer button {
   padding-bottom: 40px;
 }
 
+.about {
+  text-align: left;
+}
+
+.about p:first-child {
+  margin-top: 0px;
+  color: #ff671b;
+  padding-top: 40px;
+  font-size: 18pt;
+}
+
+.copyright {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 100%;
+  display: inline-block;
+}
+
+.copyright p {
+  margin: 0;
+  float: left;
+  color: #ff671b;
+}
+
+.copyright span {
+  color: #fff;
+  padding-right: 7px;
+}
+
 html, body {
   width: 100%;
   background-color: #64493f;
@@ -285,6 +349,22 @@ html, body {
 }
 
 .main_section {
+  position: relative;
   border-top: dashed #957c73 2px;
   border-bottom: dashed #957c73 2px;
+}
+
+.is_active {
+  color: #fff;
+}
+
+.menu {
+  font-size: 16pt;
+  color: #ff671b;
+  float: right;
+}
+
+.menu li {
+  margin-left: 15px;
+  display: inline;
 }

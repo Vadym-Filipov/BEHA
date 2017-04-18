@@ -1,0 +1,45 @@
+header{
+  p{
+    margin: 0;
+  }
+
+  div{
+
+    display: inline-block;
+
+  }
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  width: 100%;
+
+
+
+}
+.logo{
+
+  float: left;
+}
+
+.top_logo_menu{
+  width: 100%;
+  nav{
+
+  }
+}
+
+.logo_aero{
+
+  font-size: 26pt;
+  font-weight: bold;
+  color: $white;
+  span{
+    color: $orange;
+  }
+}
+
+.logo_text{
+  font-size: 11pt;
+  color: $brown-text;
+}

@@ -1,13 +1,12 @@
 footer{
   background-color: $brown;
+  font-family: 'robotoslab regular';
+  font-size: 14pt;
+
   p {
     color: $brown-text;
   }
-  p:first-child{
-    margin-top: 0px;
-    color: $orange;
-    padding-top: 40px;
-  }
+
   img{
     background-color: $orange;
     margin-right: 10px;
@@ -24,4 +23,34 @@ footer{
   display: flex;
   border-bottom: dashed $brown-text 2px;
   padding-bottom: 40px;
+
+}
+
+.about{
+
+  text-align: left;
+  p:first-child{
+    margin-top: 0px;
+    color: $orange;
+    padding-top: 40px;
+    font-size: 18pt;
+  }
+}
+
+.copyright{
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 100%;
+  display: inline-block;
+  p {
+    margin: 0;
+    float: left;
+    color: $orange;
+  }
+  span{
+    color: $white;
+    padding-right: 7px;
+  }
+
 }
