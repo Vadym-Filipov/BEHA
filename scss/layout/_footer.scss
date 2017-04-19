@@ -1,6 +1,6 @@
 footer{
   background-color: $brown;
-  font-family: 'robotoslab regular';
+  font-family: Robotoslab;
   font-size: 14pt;
 
   p {
@@ -29,7 +29,8 @@ footer{
 .about{
 
   text-align: left;
-  p:first-child{
+  h3{
+    font-weight: normal;
     margin-top: 0px;
     color: $orange;
     padding-top: 40px;

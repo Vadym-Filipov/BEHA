@@ -18,10 +18,16 @@ html, body{
 	color: $white;
 }
 
+.is_active_left{
+	color: $white;
+	background-color: $brown-text;
+	opacity: 0.5;
+}
+
 .menu{
 
 
-	font-size: 16pt;
+	font-size: 14pt;
 	color: $orange;
 	float: right;
 	li{
@@ -29,3 +35,78 @@ html, body{
 		display: inline;
 	}
 }
+
+@font-face {
+	font-family: Robotoslab;
+	src: url(../fonts/roboto-slab.regular.ttf);
+}
+
+.main_section{
+	font-family: Robotoslab;
+	padding-top: 40px;
+	div{
+		display: inline-block;
+	}
+
+
+}
+
+.content{
+	float: right;
+	width: 680px;
+	padding-left: 40px;
+
+	p{
+		color: $brown-text;
+		font-size: 12pt;
+		margin: 0;
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+}
+
+.left_menu{
+	margin-top: 95px;
+	font-size: 12pt;
+	float: left;
+	color: $orange;
+	width: 280px;
+	li{
+		height: 40px;
+		line-height: 45px;
+		padding-left: 15px;
+	}
+
+
+}
+h2{
+	color: $white;
+	margin: 0;
+	font-size: 26pt;
+}
+
+.avto_moto{
+	margin-bottom: 10px;
+	//width: 50%;
+	padding-right: 20px;
+	p{
+		padding: 0;
+		color: $orange;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	img{
+		width: 100%;
+		display: block;
+		margin: 0;
+		border: solid 5px $brown-text;
+
+	}
+}
+
+.avto_right{
+	float: right;
+}
+
+

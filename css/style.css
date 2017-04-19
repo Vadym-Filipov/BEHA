@@ -247,6 +247,7 @@ header {
   padding-bottom: 40px;
   padding-top: 40px;
   width: 100%;
+  font-family: Robotoslab;
 }
 
 header p {
@@ -282,7 +283,7 @@ header div {
 
 footer {
   background-color: #3b2923;
-  font-family: 'robotoslab regular';
+  font-family: Robotoslab;
   font-size: 14pt;
 }
 
@@ -312,7 +313,8 @@ footer button {
   text-align: left;
 }
 
-.about p:first-child {
+.about h3 {
+  font-weight: normal;
   margin-top: 0px;
   color: #ff671b;
   padding-top: 40px;
@@ -358,8 +360,14 @@ html, body {
   color: #fff;
 }
 
+.is_active_left {
+  color: #fff;
+  background-color: #957c73;
+  opacity: 0.5;
+}
+
 .menu {
-  font-size: 16pt;
+  font-size: 14pt;
   color: #ff671b;
   float: right;
 }
@@ -367,4 +375,75 @@ html, body {
 .menu li {
   margin-left: 15px;
   display: inline;
+}
+
+@font-face {
+  font-family: Robotoslab;
+  src: url(../fonts/roboto-slab.regular.ttf);
+}
+
+.main_section {
+  font-family: Robotoslab;
+  padding-top: 40px;
+}
+
+.main_section div {
+  display: inline-block;
+}
+
+.content {
+  float: right;
+  width: 680px;
+  padding-left: 40px;
+}
+
+.content p {
+  color: #957c73;
+  font-size: 12pt;
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.left_menu {
+  margin-top: 95px;
+  font-size: 12pt;
+  float: left;
+  color: #ff671b;
+  width: 280px;
+}
+
+.left_menu li {
+  height: 40px;
+  line-height: 45px;
+  padding-left: 15px;
+}
+
+h2 {
+  color: #fff;
+  margin: 0;
+  font-size: 26pt;
+}
+
+.avto_moto {
+  margin-bottom: 10px;
+  padding-right: 20px;
+}
+
+.avto_moto p {
+  padding: 0;
+  color: #ff671b;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.avto_moto img {
+  width: 100%;
+  display: block;
+  margin: 0;
+  border: solid 5px #957c73;
+}
+
+.avto_right {
+  float: right;
 }
