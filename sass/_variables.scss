@@ -1,0 +1,15 @@
+$projectName : 'Aerografia';
+$date : 01/08/2013;
+$fontSize : 14px;
+$fontFamily : RobotoSlab, Arial, Helvetica, sans-serif;
+$lineHeight : 20px;
+$color : #957c73;
+$bodyBg : #64493f url(../img/body-bg.png) repeat 50% 0;//, url(../img/body-bg.png) repeat;
+$linkColor : #ff671b;
+$linkColorHover : #fff;
+
+@mixin transition ($time : 0.3s, $prop : all) {
+	-webkit-transition: $prop $time ease-in-out;
+	-moz-transition: $prop $time ease-in-out;
+	transition: $prop $time ease-in-out;
+}

@@ -1,0 +1,72 @@
+/*-------------------------------------------------
+ TYPOGRAPHY
+-------------------------------------------------*/
+
+/*
+ * $projectName
+ * @section typography
+ * @date $date
+ * @lastmodified $date
+ * @version 1.0
+ */
+
+/*
+ * Default font settings. The font-size percentage is of 16px. (0.75 * 16px = 12px)
+ */
+
+
+body { font-size: $fontSize; color: $color; background: $bodyBg; font-family: $fontFamily; line-height: $lineHeight; height:100%; }
+
+/*
+ * @subsection headings
+ */
+
+h1,h2,h3,h4,h5,h6 { font-weight: normal; color: #000; line-height: 1; }
+
+h1 { font-size: 1.875em;  margin-bottom: 20px; } /* 30px / 16px*/
+h2 { font-size: 1.500em; margin-bottom: 20px; }/* 24px / 16px*/
+h3 { font-size: 1.250em; margin-bottom: 15px; }/* 20px / 16px*/
+h4 { font-size: 1.2em; margin-bottom: 1.25em; }
+h5 { font-size: 1em; font-weight: bold; margin-bottom: 1.5em; }
+h6 { font-size: 1em; font-weight: bold; }
+
+
+/*
+ * @subsection text elements
+ */
+
+p { margin: 0 0 15px; }
+p img.left { float: left; margin: 0 20px 20px 0; padding: 0; }
+p img.right { float: right; margin: 0 0 20px 20px; padding: 0; }
+a:focus, a:hover { color: $linkColorHover;text-decoration: none; }
+a { color: $linkColor; text-decoration:none;  @include transition;  }
+
+hr { color:#fff; background:transparent; margin:0 0 0.5em 0; padding:0 0 0.5em 0; border:0; border-bottom:1px #eee solid; }
+
+/*
+ * @subsection lists
+ */
+
+li ul,
+li ol { margin: 0; }
+ul, ol { margin: 0; padding-left: 0; }
+
+ul { list-style-type: none; }
+ol { list-style-type: decimal; }
+
+dl { margin: 0 0 1.5em 0; }
+dl dt { font-weight: bold; }
+dd { margin-left: 1.5em;}
+
+/*
+ * @subsection tables
+ */
+
+/*
+ * @subsection misc classes
+ */
+
+.small { font-size: 0.8em; margin-bottom: 1.875em; line-height: 1.875em; }
+.large { font-size: 1.2em; line-height: 2.5em; margin-bottom: 1.25em; }
+.hide { display: none; }
+.show { display: block; }

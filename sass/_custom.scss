@@ -1,0 +1,295 @@
+/*-------------------------------------------------
+CUSTOM
+-------------------------------------------------*/
+
+/*
+ * $projectName
+ * @section custom
+ * @date $date
+ * @lastmodified $date
+ * @version 1.0
+ */
+@import "sprite/*.png";
+@include all-sprite-sprites;
+
+/*-------------------------------------------------
+HEADER
+-------------------------------------------------*/
+#sv-header, .footer-bottom  {
+	position: relative;
+	.logo {
+		position:absolute;
+		top: 40px;
+		left: 0;
+		width: 490px;
+		a {
+			display:block;
+			float:left;
+			margin-right:20px;
+			img {
+				display:block;
+			}
+		}
+		span {
+			width: 200px;
+			display:inline-block;
+		}
+	}
+	nav {
+		float:right;
+		a {
+			display:block;
+			float:left;
+			margin-left:20px;
+			font-size: 16px;
+			&.active {
+				color: #fff;
+			}
+		}
+	}
+}
+
+
+/*-------------------------------------------------
+FOOTER
+-------------------------------------------------*/
+.footer-inn {
+	border-top: 1px dotted rgba(255,255,255, 0.5);
+	h3 {
+		font-size: 18px;
+		color: #ff671b;
+	}
+}
+.sosials-list {
+		li {
+			float:left;
+			margin-right:5px;
+			text-indent: -9999em;
+			&.btn-orange {
+				text-indent: 0;
+				a {
+					line-height:33px;
+					height: 32px;
+					color: #fff;
+					display:inline-block;
+					padding: 0 10px;
+					position: relative;
+					top: 1px;
+					display:block;
+					background: #ff671b;
+					font-weight:bold;
+					font-size: 16px;
+					&:hover {
+						color:#ff671b ;
+						background: #fff;
+					}
+				}
+			}
+		}
+	}
+	.sprite-sosial {
+		width: 116px;
+		background-image:url(../img/sprite.png);
+		background-repeat:no-repeat;
+		height: 33px;
+	}
+.footer-bottom {
+	border-top: 1px dashed rgba(255,255,255, 0.5);
+	margin-top:40px;
+	padding-top:30px;
+}
+/*-------------------------------------------------
+SIDE BAR
+-------------------------------------------------*/
+
+/*-------------------------------------------------
+indents section
+-------------------------------------------------*/
+
+/*-------------------------------------------------
+CONTENT
+-------------------------------------------------*/
+.sv-page {
+	padding-bottom:20px;
+}
+h1 {
+	font-weight:bold;
+		font-size: 36px;
+		color: #ffffff;
+
+		margin: 0 0 40px;
+		-moz-user-select: none;
+		-khtml-user-select: none;
+		user-select: none;
+}
+.main-carusel-holder {
+	position: relative;
+	h1 {
+		text-align: center;
+	}
+	.carusel {
+		position: relative;
+		overflow: hidden;
+		margin: 0 0 20px;
+		/* You need at least a height, adjust this to your needs */
+		ul {
+			width: 20000em;
+			position: absolute;
+			list-style: none;
+			margin: 0;
+			padding-top:5px!important;
+		}
+
+		li {
+			width: 285px;
+			margin: 0 10px;
+			float: left;
+			&.active {
+				img {
+					box-shadow:0 0 0 5px #8b776f;
+				}
+			}
+			img {
+				display:block;
+				margin: 0 0 25px;
+			}
+			a {
+				font-size: 18px;
+				display:block;
+				&:focus {
+					outline: none;
+				}
+			}
+			.category {
+				color: #957c73;
+				span {
+					color: #fff;
+				}
+			}
+		}
+	}
+	.jcarousel-prev, .jcarousel-next {
+		border: none;
+		text-indent: -9999em;
+		width: 32px;
+		height: 32px;
+		opacity: 0.8;
+		@include transition();
+		position: absolute;
+		z-index: 2;
+		top: -76px;
+		cursor: pointer;
+		-moz-user-select: none;
+		-khtml-user-select: none;
+		user-select: none;
+		&:hover {
+			opacity: 1;
+		}
+	}
+	.jcarousel-prev  {
+		left: 270px;
+		@include sprite-sprite(arrow-prev);
+	}
+	.jcarousel-next  {
+		right: 270px;
+		@include sprite-sprite(arrow-next);
+	}
+}
+nav {
+	ul {
+		li {
+			margin:0 0 5px;
+			&.active {
+				a {
+					background:rgba(255,255,255, 0.1);
+					color:#fff;
+				}
+			}
+			a {
+				display:block;
+				padding:5px 10px;
+			}
+		}
+	}
+}
+.blocks-2 {
+	margin:0 0 40px;
+	.block1 {
+		float:right;
+		width:285px;
+		&:first-child {
+			float:left;
+		}
+
+	}
+}
+.image-holder {
+	display: block;
+    font-size: 18px;
+	img {
+		 box-shadow: 0 0 0 5px #8B776F;
+		display: block;
+        margin: 0 0 25px;
+	}
+}
+.category {
+	span {
+		color:#fff;
+	}
+}
+
+.galery {
+	margin:0 0 20px;
+	.main-pic {
+		img {
+			box-shadow: 0 0 0 5px #8B776F;
+			margin:0 0 15px;
+			display:block;
+		}
+	}
+	.preview-pic {
+		&:after {
+			content:"";
+			clear:both;
+			display:table;
+		}
+		img {
+			width:120px;
+			height:80px;
+			display:block;
+			float:left;
+			margin-left:15px;
+			cursor: pointer;
+			&:first-child {
+				margin-left:0;
+			}
+			&.active {
+				box-shadow: 0 0 0 5px #8B776F;
+			}
+		}
+	}
+}
+
+.section-info {
+	span {
+		color:#fff;
+		display:block;
+	}
+}
+a.orange {
+	line-height:33px;
+	height: 32px;
+	color: #fff;
+	display:inline-block;
+	padding: 0 10px;
+	position: relative;
+	top: 1px;
+	display:inline-block;
+	background: #ff671b;
+	font-weight:bold;
+	font-size: 16px;
+	&:hover {
+		color:#ff671b ;
+		background: #fff;
+	}
+}
